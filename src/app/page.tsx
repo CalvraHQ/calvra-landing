@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import {
   ArrowRight, Check, BarChart3, Search, FileText, Mic, Brain, TrendingUp,
   BookOpen, AlertCircle, MessageSquare, ChevronRight, Zap,
@@ -10,7 +9,6 @@ import {
 
 const PINK = "#EC4899";
 const PINK_LIGHT = "#FDF2F8";
-const PINK_MID = "#FCE7F3";
 const GREEN = "#22C55E";
 const DARK = "#111111";
 

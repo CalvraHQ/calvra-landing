@@ -103,8 +103,8 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
@@ -113,7 +113,11 @@ export default function RootLayout({
           className={`${jakartaSans.variable} ${geistMono.variable}`}
       >
       <body>
+      <Navbar />
+
       {children}
+
+      <Footer />
 
       <GoogleAnalytics gaId="G-N74KMDKDVM" />
       </body>
