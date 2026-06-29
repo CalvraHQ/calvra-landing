@@ -107,13 +107,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${jakartaSans.variable} ${geistMono.variable}`}>
-      <body suppressHydrationWarning className="min-h-screen flex flex-col antialiased bg-background text-foreground">
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
-      </body>
+      <html
+          lang="en"
+          className={`${jakartaSans.variable} ${geistMono.variable}`}
+      >
+      <body>
+      {children}
+
       <GoogleAnalytics gaId="G-N74KMDKDVM" />
-    </html>
+      </body>
+      </html>
   );
 }
