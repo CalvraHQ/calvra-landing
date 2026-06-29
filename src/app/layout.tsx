@@ -30,6 +30,75 @@ export const metadata: Metadata = {
     icon: "/logos/calvra.png",
     apple: "/logos/calvra.png",
   },
+  keywords: [
+    // Core
+    "small business software",
+    "business management software",
+    "small business management",
+    "business record keeping",
+
+    // Recording
+    "sales tracker",
+    "expense tracker",
+    "income tracker",
+    "business transaction tracker",
+    "daily sales record",
+    "record business sales",
+    "record business expenses",
+
+    // Profit
+    "profit tracker",
+    "profit calculator",
+    "business profit calculator",
+    "know business profit",
+    "weekly business report",
+    "monthly business report",
+
+    // Customers & Debts
+    "customer debt tracker",
+    "accounts receivable tracker",
+    "who owes me money",
+    "customer payment tracker",
+
+    // Inventory
+    "inventory tracker",
+    "stock management",
+    "stock tracker",
+    "inventory records",
+
+    // AI
+    "AI bookkeeping",
+    "AI business assistant",
+    "AI accounting assistant",
+    "AI for small businesses",
+    "AI business insights",
+    "AI sales assistant",
+
+    // Voice
+    "voice expense tracker",
+    "voice sales recorder",
+    "voice bookkeeping",
+    "voice business assistant",
+
+    // Alternatives
+    "Excel alternative for business",
+    "notebook alternative for business records",
+    "POS alternative",
+    "business record app",
+
+    // Reports
+    "business dashboard",
+    "business analytics",
+    "business reports",
+    "financial reports for small business",
+
+    // Industry
+    "retail business software",
+    "salon management software",
+    "photography business software",
+    "furniture business management",
+    "small shop management software"
+  ]
 };
 
 export default function RootLayout({
