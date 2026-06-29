@@ -25,7 +25,9 @@ export const metadata: Metadata = {
   verification: {
     google: "w__bo_V7ypYEGLJigFzuaT-EaIgCphgBMZq0zDJpyus",
   },
-  metadataBase: new URL("https://calvra.vercel.app")  icons: {
+  metadataBase: new URL("https://calvra.vercel.app"),
+
+  icons: {
     icon: "/logos/calvra.png",
     apple: "/logos/calvra.png",
   },
