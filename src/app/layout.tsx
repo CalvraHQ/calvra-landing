@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     template: "%s | Calvra",
   },
   description: "Calvra — the AI-powered business assistant for small businesses.",
+  verification: {
+    google: "w__bo_V7ypYEGLJigFzuaT-EaIgCphgBMZq0zDJpyus",
+  },
   metadataBase: new URL("https://calvra.com"),
   icons: {
     icon: "/logos/calvra.png",
